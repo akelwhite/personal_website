@@ -1,0 +1,212 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#FrndPic{
+    border: 2px solid white ;
+    width:500px ;
+    
+    
+}
+
+
+  body {
+    font-family: 'Luckiest Guy', sans-serif;
+    background-color: #030303;
+    line-height: 1.6;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.header {
+    background-color: #b800a8;
+    color: rgb(255, 247, 0);
+    text-align: center;
+    font-size: large;
+    font-weight: 300;
+    padding: 20px 0;
+    
+
+}
+
+.header-title {
+    font-size: 10rem;
+    margin-bottom: 10px;
+}
+
+.header-subtitle {
+    
+    font-size: 3rem;
+}
+
+
+.main-content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.header2{
+    background-color: #b800a8
+    
+    
+}
+
+.header-title2{
+    font-size: 10rem;
+    margin-bottom: 10px ;
+
+}
+
+
+.party-feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.party-item {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+.party-item img {
+    max-width: 100%;
+    display: block;
+    border: 4px solid white ;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.party-caption {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
+
+.load-more-btn {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #000000;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    
+}
+
+
+.load-more-btn:hover {
+    background-color: #555;
+}
+
+
+.main-content img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any inline spacing */
+    margin: 0 auto; /* Center align images */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #b800a8;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: purple;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: purple;
+    color: yellow;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  .profile-pictures {
+    display: block;
+  }
+
+  .Names {
+    color: white;
+    display: inline;
+    
+    
+}
+
+.Friend-Caption{
+    color: #ffffff;
+}
+
+.Friends-Pictures{
+    float: right;
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 10%;
+    
+}
+
+.vertical {
+    border-left: 6px yellow ;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+}
+
+#LPC-Title{
+    color: #ffffff;
+    float: left;
+    padding-left: 15%;
+    padding-top: 7%;
+}
+
+#OSA-Title{
+    color: #ffffff;
+    float: right;
+    padding-right: 15%;
+    padding-top: 7%;
+}
+
+#local-houses{
+    border: solid white;
+}
+
+#non-local{
+    border: solid white;
+}
